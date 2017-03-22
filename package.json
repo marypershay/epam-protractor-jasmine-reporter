@@ -1,8 +1,8 @@
 {
-  "name": "protractor-jasmine2-screenshot-reporter",
+  "name": "epam-protractor-jasmine2-reporter",
   "version": "0.3.3",
   "description": "Use the screenshot reporter to capture screenshots after each executed Protractor test case.",
-  "main": "index.js",
+  "main": "json_report.js",
   "scripts": {
     "test": "mocha test",
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mlison/protractor-jasmine2-screenshot-reporter"
+    "url": "https://github.com/marypershay/epam-protractor-jasmine-reporter"
   },
   "dependencies": {
     "hat": "0.0.3",
@@ -28,39 +28,6 @@
     "selenium",
     "reporter",
     "html"
-  ],
-  "author": "michal.lison@nitor.fi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mlison/protractor-jasmine2-screenshot-reporter/issues"
-  },
-  "homepage": "https://github.com/mlison/protractor-jasmine2-screenshot-reporter",
-  "contributors": [
-    {
-      "name": "Antti Arponen",
-      "email": "antti.arponen@rovio.com"
-    },
-    {
-      "name": "Alex Novikov",
-      "email": "alex@asnovikov.ru",
-      "url": "http://www.asnovikov.ru/"
-    },
-    {
-      "name": "Sandeep Adinarayana"
-    },
-    {
-      "name": "Ievgenii Vdovenko",
-      "email": "yevgenys2008@gmail.com"
-    },
-    {
-      "name": "Andrew Finlay",
-      "url": "https://github.com/AndrewFinlay"
-    },
-    {
-      "name": "Mark Veenstra",
-      "email": "mark@mobilea.nl",
-      "url": "https://github.com/mark-veenstra"
-    }
   ],
   "devDependencies": {
     "chai": "^3.5.0",
